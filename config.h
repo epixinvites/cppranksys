@@ -4,6 +4,6 @@
 #include <iostream>
 using namespace std;
 
-string working_dir="data/";
+const string working_dir="data/";
 
 #endif
