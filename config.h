@@ -1,9 +1,4 @@
-#ifndef CONFIG_H
-#define CONFIG_H
-
-#include <iostream>
-using namespace std;
-
-const string working_dir="data/";
-
-#endif
+#include <string>
+const int rank_boundary = 215;
+const std::string studentdb = "data/studentdb.csv";
+const std::string rankingdb = "data/ranking.csv";
