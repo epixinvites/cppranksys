@@ -1,0 +1,12 @@
+LAYOUT(displayranking, 700, 440)
+	ITEM(Upp::ArrayCtrl, array, Appending(true).Removing(true).HSizePosZ(48, 56).VSizePosZ(72, 36))
+	ITEM(Upp::Label, RankingTitle, SetLabel(t_("Ranking")).SetAlign(ALIGN_CENTER).SetFont(StdFontZ(17)).HCenterPosZ(220, -80).TopPosZ(12, 32))
+	ITEM(Upp::EditField, searchbar, HCenterPosZ(120, 186).TopPosZ(16, 28))
+	ITEM(Upp::Label, searchlabel, SetLabel(t_("Search:")).SetFont(StdFontZ(13)).HCenterPosZ(52, 100).TopPosZ(16, 28))
+	ITEM(Upp::Button, searchbutton, HCenterPosZ(28, 260).TopPosZ(16, 28))
+END_LAYOUT
+
+LAYOUT(menu, 360, 200)
+	ITEM(Upp::Button, displaybutton, SetLabel(t_("Display Ranking")).HCenterPosZ(160, 0).VCenterPosZ(40, 0))
+END_LAYOUT
+
